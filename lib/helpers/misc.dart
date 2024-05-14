@@ -126,7 +126,7 @@ class Misc {
     final RenderView renderView = RenderView(
       child: RenderPositionedBox(child: repaintBoundary),
       configuration: ViewConfiguration(
-        size: logicalSize,
+        // size: logicalSize,
         devicePixelRatio: pixelRatio ?? 1.0,
       ),
       view: ui.window,
